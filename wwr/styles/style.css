@@ -1,0 +1,38 @@
+#content {
+	max-width:1600px;
+	margin: 0 auto;
+}
+.nav_a{
+	text-align: center;
+	
+}
+.nav_a:hover{
+	background-color: bisque;
+}
+#hero-msg h1, #hero-msg h4{
+	text-align: center;
+}
+.button-box{
+	text-align: center;
+}
+.home-grid{
+	text-align: center;
+}
+#backgorund{
+	height: 725px;
+}
+body{
+	background-color: rgb(219, 192, 157);
+}
+#hero-img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	background-color: rgb(211, 146, 100);
+}
+.book, .join{
+	background-color: rgb(211, 146, 100);
+	color: black;
+}
