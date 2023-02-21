@@ -3,16 +3,20 @@
 #content {
 	max-width:1600px;
 	margin: 0 auto;
+	text-align: center;
 }
 nav{
 	display: flex;
 	justify-content: space-around;
+}
+nav a {
 	text-align: center;
 	color:black;
 	font-size: 20px;
 	text-decoration: none;
 	font-family: black Ops One,'Times New Roman', 'Times, serif';
-	padding: 30px;			
+	padding: 30px;
+	border-radius: 10px;			
 }
 .logo{
 	width: 80px;
@@ -28,7 +32,7 @@ nav{
 	font-size: 2em;
 	margin-top: 10px;
 }
-nav:hover{
+nav a:hover{
 	background-color: bisque;
 	color: black;
 }
@@ -62,7 +66,8 @@ nav:hover{
 }
 .home-grid{
 	display: grid;
-	grid-template-columns:repeat(10,1fr);	
+	grid-template-columns:repeat(10,1fr);
+		
 }
 #background{
 	height: 725px;
@@ -109,6 +114,7 @@ header{
 	border: 5px solid rgb(136, 29, 29);
 	transition: transform .5s;
     box-shadow: 5px 20px 10px black;
+	border-radius: 5px;
 	
 }
 .card-img:hover{
