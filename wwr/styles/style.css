@@ -218,10 +218,12 @@ footer .social img{
 }
 
 .message p{
-	padding: auto;
-	justify-content: left;
+	padding: 20px;
+	justify-content: center;
 	text-align: justify;
 	border-style: outset;
+	margin: 20px;
+	border-radius: 10px;
 
 	
 }
@@ -233,13 +235,21 @@ footer .social img{
 	border: 5px solid rgb(136, 29, 29);
 	box-shadow: 5px 20px 10px black;
 	border-radius: 10px;
+	margin-top: 110px;
 
 }
 
-
-
 .message2{
-	text-align: justify;
+	margin-top: 50px;
+}
+
+.message2 p{
+	justify-content: center;
+	text-align: center;
+	border-radius: 10px;
+	margin: 20px;
+	border-style: outset;
+	padding: 20px;
 }
 
 .More_link{
@@ -248,7 +258,6 @@ footer .social img{
 	text-decoration: none;
 	font-size: 18px;
 	padding: 15px 30px;
-	margin-top: 50px;
 	border-radius: 5px;
 }
 .More_link :hover{
