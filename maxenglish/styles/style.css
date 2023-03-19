@@ -94,29 +94,27 @@ nav a:hover{
 }
 
 footer{
-	background-color: whitesmoke;
-	color: black;
+	background-color: black;
+	color: white;
 	padding: 25px 50px;
 	margin-top: 200px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	font-family: black Ops One,'Times New Roman', 'Times, serif';
 }
 footer a{
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 footer p{
 	font-size: 1.2em;
 	text-decoration: none;
+	color: white;
 }
 footer p a:hover{
 	text-decoration: underline;
 }
 footer .social img{
 	padding-top: 15px;
-}
-.icon{
-	width: 80px;
-	padding-top: 10px;
 }
