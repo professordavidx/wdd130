@@ -113,9 +113,8 @@ nav a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3,1fr);
-  align-content:center;
-  gap: 10px;
-  justify-content: center;
+  gap: 15px;
+  
 }
 
 .intermediate{
@@ -123,13 +122,11 @@ nav a:hover{
 	margin: 100px 0;
 	
 }
-.msg_intermediate p {
+.msg_intermediate {
+    display: grid;
 	grid-area: 1/2/2/3;
-	background-color:whitesmoke;
-	line-height: 1.5em;
-	padding: 35px;
-	box-shadow: 5px 20px 10px black;
-	border: black;
+	place-content: center;
+    align-items:center;
 }
 
 
@@ -142,6 +139,7 @@ nav a:hover{
 	border-radius: 40px;
 	max-width: 100%;
 	height: 400px;
+	width: 400px;
 	
 	
 }
@@ -163,7 +161,10 @@ nav a:hover{
 }
 
 .msg_advanced{
-	grid-area: 2/2/3/3;
+    display: grid;
+	grid-column: 2/3;
+    grid-row: 2/3;
+    align-items:center;
 }
 
 .vocabulary_game{
