@@ -178,6 +178,31 @@ nav a:hover{
     align-items:center;
 }
 
+/*page 2 intermediate*/
+
+.intermidiate-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3,1fr);
+  gap: 15px;
+  
+  
+}
+
+.intermediate1{
+   grid-area: 1/1/2/2;
+   margin: 100px 0;
+}
+
+.msg_intermediate1{
+
+	display: grid;
+	grid-area: 1/2/2/3;
+	place-content: center;
+    align-items:center;
+
+}
+
 
 
 
