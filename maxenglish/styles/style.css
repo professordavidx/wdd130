@@ -184,7 +184,7 @@ nav a:hover{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3,1fr);
-  gap: 15px;
+  gap: 10px;
   
   
 }
@@ -203,7 +203,29 @@ nav a:hover{
 
 }
 
+.msg_intermediate2{
+	display: grid;
+	grid-column: 2/3;
+    grid-row: 2/3;
+    align-items:center;
+}
 
+.msg_intermediate3{
+	display: grid;
+	grid-column: 2/3;
+    grid-row: 3/4;
+    align-items:center;
+}
+
+.little_boy-img,.intermediate-img2,.app_learn_pic{
+	border: 8px solid rgb(186, 186, 33);
+	transition: transform .5s;
+    box-shadow: 5px 20px 10px black;
+	border-radius: 40px;
+	max-width: 100%;
+	height: 400px;
+	width: 400px;
+}
 
 
 
