@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: white;
   --secondary-color: black;
   --accent1-color: yellow;
-  --accent2-color: orange;
+  --accent2-color: yellow;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "black Ops One";
@@ -23,7 +23,7 @@ Fonts are separated by a | */
   --nav-link-color: white;
   --nav-background-color: black;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: orange;
+  --nav-hover-background-color: yellow;
 }
 
 
