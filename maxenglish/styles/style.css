@@ -180,13 +180,11 @@ nav a:hover{
 
 /*page 2 intermediate*/
 
-.intermidiate-grid{
+.intermediate-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3,1fr);
-  gap: 10px;
-  
-  
+  gap: 10px;  
 }
 
 .intermediate1{
@@ -227,11 +225,14 @@ nav a:hover{
 	width: 400px;
 }
 
+/*page 3 advanced*/
 
-
-
-
-
+.advanced-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3,1fr);
+	gap: 10px;  
+}
 
 
 footer{
@@ -244,6 +245,7 @@ footer{
 	align-items: center;
 	font-family: black Ops One,'Times New Roman', 'Times, serif';
 }
+
 footer a{
 	text-decoration: none;
 	color: white;
