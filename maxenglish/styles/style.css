@@ -32,6 +32,7 @@ nav a {
 
 .logo{
 	width: 300px;
+	margin-top: 10px;
 }
 #logo_link {
 	padding-top: 5px;
@@ -242,6 +243,11 @@ nav a:hover{
 	max-width: 100%;
 	height: 400px;
 	width: 400px;
+	align-items: center;
+}
+
+.aptis_pic{
+	margin-top: 30px;
 }
 
 .msg_advanced1{
@@ -252,7 +258,20 @@ nav a:hover{
 }
 
 .msg_advanced2{
-		
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	place-content:center;
+    align-items:center;
+}
+
+.msg_advanced3{
+	display: grid;
+	grid-column: 2/3;
+	grid-row: 3/4;
+	place-content:center;
+    align-items:center;
+
 }
 
 
