@@ -234,45 +234,6 @@ nav a:hover{
 	gap: 10px;  
 }
 
-.advanced1{
-   grid-area: 1/1/2/2;
-   margin: 100px 0;
-}
-
-.msg_advanced{
-	display: grid;
-	grid-area: 1/2/2/3;
-	place-content: center;
-    align-items:center;
-}
-
-.advanced2{
-	grid-area: 2/1/3/2;
-	margin: 100px 0
-
-}
-
-.msg_advanced2{
-	display: grid;
-	grid-column: 2/3;
-    grid-row: 2/3;
-    align-items:center;
-
-}
-
-.advanced3{
-	grid-column:1/2;
-	grid-row: 3/4;
-	margin: 100px 0
-}
-
-.msg_advanced3{
-	display: grid;
-	grid-column: 2/3;
-    grid-row: 3/4;
-    align-items:center;
-}
-
 .woman_glasses_pic,.aptis_pic,.aptis_girl_pic{
 	border: 8px solid rgb(186, 186, 33);
 	transition: transform .5s;
@@ -282,6 +243,19 @@ nav a:hover{
 	height: 400px;
 	width: 400px;
 }
+
+.msg_advanced1{
+	display: grid;
+	grid-area: 1/2/2/3;
+	place-content: center;
+    align-items:center;
+}
+
+.msg_advanced2{
+		
+}
+
+
 
 
 footer{
