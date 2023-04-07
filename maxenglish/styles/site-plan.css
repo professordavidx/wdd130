@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: white;
   --secondary-color: black;
   --accent1-color: yellow;
-  --accent2-color: yellow;
+  --accent2-color: rgb(186, 186, 33);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "black Ops One";
